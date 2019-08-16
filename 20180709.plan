@@ -20,3 +20,23 @@ Shakespeare Course Outline
 *** git + vim
 ** integrate vim with git*hub
 *** vim fugitive - already installed.
+
+
+15 Aug 2019
+-----------
+
+ssh key gen:
+
+$ ssh-keygen -t rsa -b 4096 -C "pdahubbard@gmail.com"
+You're so cool.
+
+Start ssh agent:
+(done)
+$ ssh-add ~/.ssh/id_rsa
+
+
+Autofs:
+Does not work, as no way of passing vers=1.0 (as required by fritzbox) to the autofs mounter.
+
+
+
